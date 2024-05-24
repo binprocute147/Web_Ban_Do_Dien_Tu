@@ -522,8 +522,8 @@
                 <ul>
                     <li><a href="{{ url('/') }}">Trang Chủ</a></li>
                     <li><a href="{{ url('/products') }}">Sản Phẩm</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                    <li><a href="#">Giới Thiệu</a></li>
+                    <li><a href="{{ url('/Contact') }}">Liên Hệ</a></li>
+                    <li><a href="{{ url('/Introduce') }}">Giới Thiệu</a></li>
                 </ul>
                 {{-- thêm action và method --}}
                 <form action="{{ url('search_products') }}" method="POST">
