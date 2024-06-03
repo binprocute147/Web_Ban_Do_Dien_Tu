@@ -622,7 +622,7 @@ class ProvisionServer extends Controller
     public function showproduct($id)
     {
         $product = Product::findOrFail($id);
-        return view('ProductDetail', compact('product'));
+        return view('productDetail', compact('product'));
     }
 
     // hàm tăng product_view mỗi khi người dùng nhấn vào xem chi tiết sản phẩm 
